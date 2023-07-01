@@ -36,14 +36,14 @@ body {
     bottom: 0;
     text-align: left;
     margin-left: 1%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 
 .arrow-up,
 .arrow-down,
 .space {
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
