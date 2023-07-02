@@ -81,3 +81,50 @@ body {
     color: #FFF;
     display: block;
 }
+
+#circleG {
+    position: absolute;
+    width: auto;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3.5%;
+    margin-right: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.75%;
+    border-radius: 20%;
+}
+
+.circleG{   
+	background-color:#C4C4C4;
+	height:13px;
+	width:13px;
+	animation-name:bounce_circleG;
+	animation-duration:1.5s;
+	animation-iteration-count:infinite;
+	animation-direction:linear;
+	border-radius:9px;
+}
+div#circleG > .circleG:nth-child(even) {
+	margin: 0 7px;
+}
+#circleG_1{
+	animation-delay:0.3s;
+}
+#circleG_2{
+	animation-delay:0.7s;
+}
+#circleG_3{
+	animation-delay:0.9s;
+}
+@keyframes bounce_circleG{
+	0%{
+	}
+	50%{
+		background-color:#000000
+	}
+	100%{
+	}
+}
+
