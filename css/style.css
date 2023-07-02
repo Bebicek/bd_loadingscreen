@@ -116,7 +116,7 @@ body {
 
 .img-center {
     text-align: center;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,6 +179,28 @@ div#circleG > .circleG:nth-child(even) {
     top: 0;
     right: 0;
     margin-top: 4%;
+    margin-right: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 55px;
+}
+
+.tiktok {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 7.5%;
+    margin-right: 1%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 55px;
+}
+
+.website {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 11%;
     margin-right: 1%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
