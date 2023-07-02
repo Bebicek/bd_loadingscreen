@@ -36,7 +36,53 @@ body {
     bottom: 0;
     text-align: left;
     margin-left: 1%;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
+}
+
+.textbox {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 4%;
+    margin-left: 120vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding-top: 0.10%;
+    padding-bottom: 0.10%;
+    padding-right: 1.5%;
+    padding-left: 1.75%;
+}
+
+.textbox .heading-textbox::before {
+    position: fixed;
+    content: "";
+    width: 4px;
+    height: 23px;
+    background-color: #0084ff;
+    left: 120.05vh;
+    border-radius: 20px;
+    margin-top: 1px;
+}
+
+
+
+
+
+.blue-text {
+    color: #0084ff;
+}
+
+.heading-textbox {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+    margin-bottom: -8px;
+    margin-top: 3%;
 }
 
 .arrow-up,
@@ -89,11 +135,11 @@ body {
     align-items: center;
     bottom: 0;
     right: 0;
-    margin-bottom: 3.5%;
+    margin-bottom: 4%;
     margin-right: 1%;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 0.6%;
-    border-radius: 20%;
+    border-radius: 30px;
 }
 
 .circleG{   
