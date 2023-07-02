@@ -92,14 +92,14 @@ body {
     margin-bottom: 3.5%;
     margin-right: 1%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.75%;
+    padding: 0.6%;
     border-radius: 20%;
 }
 
 .circleG{   
-	background-color:#C4C4C4;
-	height:13px;
-	width:13px;
+	background-color:#0084ff;
+	height:10px;
+	width:10px;
 	animation-name:bounce_circleG;
 	animation-duration:1.5s;
 	animation-iteration-count:infinite;
@@ -122,7 +122,7 @@ div#circleG > .circleG:nth-child(even) {
 	0%{
 	}
 	50%{
-		background-color:#000000
+		background-color: rgb(255, 255, 255)
 	}
 	100%{
 	}
