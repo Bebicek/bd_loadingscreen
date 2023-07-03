@@ -40,6 +40,7 @@
 
 
     <div id="circleG">
+        <div class="shaded-text">JOINING SERVER</div>
         <div id="circleG_1" class="circleG"></div>
         <div id="circleG_2" class="circleG"></div>
         <div id="circleG_3" class="circleG"></div>
@@ -120,6 +121,24 @@
             });
         }
         // Function for pause and play music in background//
+
+        //SHADED-TEXT
+
+    var shadedText = document.querySelector('.shaded-text');
+    var texts = ["JOINING SERVER", "PREPARING ASSETS", "ESTABLISHING CONNECTION"];
+    var currentText = 0;
+
+    setInterval(function() {
+      currentText = (currentText + 1) % texts.length;
+      shadedText.classList.remove('fade-out');
+      void shadedText.offsetWidth;
+      shadedText.classList.add('fade-out');
+      setTimeout(function() {
+        shadedText.textContent = texts[currentText];
+      }, 3000);
+    }, 4000);
+
+
     </script>
 </body>
 </html>

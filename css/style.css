@@ -42,7 +42,7 @@ body {
     position: absolute;
     bottom: 0;
     margin-bottom: 4%;
-    margin-left: 120vh;
+    margin-left: 95vh;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     padding-top: 0.10%;
@@ -57,7 +57,7 @@ body {
     width: 4px;
     height: 23px;
     background-color: #0084ff;
-    left: 120.05vh;
+    left: 95vh;
     border-radius: 20px;
     margin-top: 1px;
 }
@@ -201,3 +201,37 @@ div#circleG > .circleG:nth-child(even) {
     height: 55px;
 }
 
+.shaded-text {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradient-animation 5s infinite;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+      opacity: 1;
+    }
+    20% {
+      opacity: 1;
+    }
+    40% {
+      opacity: 0;
+    }
+    60% {
+      background-position: 100% 50%;
+      opacity: 0;
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      background-position: 0% 50%;
+      opacity: 1;
+    }
+  }
