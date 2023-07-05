@@ -168,6 +168,7 @@ div#circleG > .circleG:nth-child(even) {
 	}
 }
 
+
 .discord {
     position: absolute;
     top: 0;
@@ -210,6 +211,8 @@ div#circleG > .circleG:nth-child(even) {
     -webkit-background-clip: text;
     animation: gradient-animation 5s infinite;
     animation-fill-mode: forwards;
+    width: 120px;
+    text-align: center;
   }
 
   @keyframes gradient-animation {
