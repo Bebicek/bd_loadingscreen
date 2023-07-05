@@ -42,7 +42,7 @@ body {
     position: absolute;
     bottom: 0;
     margin-bottom: 4%;
-    margin-left: 95vh;
+    margin-left: 25vh;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     padding-top: 0.10%;
@@ -51,15 +51,44 @@ body {
     padding-left: 1.75%;
 }
 
+.textbox2 {
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 4%;
+  margin-left: 105vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  padding-top: 0.10%;
+  padding-bottom: 0.10%;
+  padding-right: 1.5%;
+  padding-left: 1.75%;
+}
+
 .textbox .heading-textbox::before {
     position: fixed;
     content: "";
     width: 4px;
     height: 23px;
     background-color: #0084ff;
-    left: 95vh;
+    left: 25vh;
     border-radius: 20px;
     margin-top: 1px;
+}
+
+.textbox2 .heading-textbox::before {
+  position: fixed;
+  content: "";
+  width: 4px;
+  height: 23px;
+  background-color: #0084ff;
+  left: 105vh;
+  border-radius: 20px;
+  margin-top: 1px;
 }
 
 
