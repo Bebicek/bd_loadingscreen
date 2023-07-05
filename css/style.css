@@ -300,13 +300,13 @@ div#circleG > .circleG:nth-child(even) {
 }
 
 .manager-role{
- color: aqua;
+ color: rgb(30, 75, 255);
 }
 
 .developer-role{
- color: blueviolet;
+ color: rgb(149, 47, 245);
 }
 
 .admin-role{
- color: chartreuse;
+ color: rgb(240, 3, 248);
 }
