@@ -249,11 +249,14 @@ div#circleG > .circleG:nth-child(even) {
     margin-left: 1%;
     align-items: center;
     border-radius: 10px;
+    overflow: hidden;
 }
 
+/*
 .scroll-box::-webkit-scrollbar {
   display: none;
 }
+*/
 
 .header {
     padding-top: 10px;
@@ -261,7 +264,7 @@ div#circleG > .circleG:nth-child(even) {
     position: relative;
     padding-left: 3.5%;
     padding-right: 4.5%;
-    background-color: #0084ff;
+    background-color: #0084ffad;
     text-align: center;
     font-size: 20px;
     border-radius: 10px 10px 0px 0px;
@@ -290,4 +293,20 @@ div#circleG > .circleG:nth-child(even) {
 .person:last-child{
   border-radius: 0px 0px 10px 10px;
   padding-bottom: 10px;
+}
+
+.owner-role{
+  color: #0084ff;
+}
+
+.manager-role{
+ color: aqua;
+}
+
+.developer-role{
+ color: blueviolet;
+}
+
+.admin-role{
+ color: chartreuse;
 }
