@@ -342,13 +342,16 @@ div#circleG > .circleG:nth-child(even) {
 }
 
 .date{
-  margin-left: 50%;
-  font-size: 15px;
-  text-align: right;
+  position: absolute;
+  font-size: 12px;
   margin-top: 3%;
+  white-space: nowrap;
+  margin-left: 60%;
 }
+
 
 .textboxh{
   display: flex;
-  align-items: center;
+  text-align: center;
+
 }
