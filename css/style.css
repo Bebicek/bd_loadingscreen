@@ -362,25 +362,32 @@ div#circleG > .circleG:nth-child(even) {
   font-family: 'Montserrat', sans-serif;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 30px; 
+  border-radius: 0px 30px 30px 0px; 
   position: absolute;
   right: 0;
   margin-top: 4.5%;
   margin-right: 6%;
-  padding-right: 10px;
-  padding-left: 10px;
   display: flex;
   align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
-.songname-text{
-  margin-left: 10px;
-}
 
 .loader{
+  position: absolute;
   height: 35px;
   display: flex;
   align-items: center;
+  right: 0;
+  margin-top: 4.5%;
+  margin-right: 16.4%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 30px 0px 0px 30px; 
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  padding-right: 6px;
+  padding-left: 5px;
 }
 
 .loader .stroke {
@@ -414,4 +421,42 @@ div#circleG > .circleG:nth-child(even) {
 }
 .stroke:nth-child(3){
   animation-delay: 0.6s;
+}
+
+
+.slide-right {
+  width: 200px;
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(-100%); }
+  to { -moz-transform: translateX(100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(-100%); }
+  to { -webkit-transform: translateX(100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
 }
