@@ -40,7 +40,7 @@ if (audio) {
 }
 // Function for pause and play music in background//
 
-//SHADED-TEXT
+//SHADED-TEXT - Function for switching words in loading animation
 
 var shadedText = document.querySelector('.shaded-text');
 var texts = ["JOINING SERVER", "PREPARING ASSETS", "ESTABLISHING CONNECTION"];
@@ -55,51 +55,14 @@ setTimeout(function() {
 shadedText.textContent = texts[currentText];
 }, 1000);
 }, 4000);
+//SHADED-TEXT - Function for switching words in loading animation
 
-//PLACEHOLDER
+//PLACEHOLDER - Function for getting handoverdata from lua script
 window.addEventListener('DOMContentLoaded', () => {
   console.log(`You are connecting to ${window.nuiHandoverData.serverAddress}`);
 
   // a thing to note is the use of innerText, not innerHTML: names are user input and could contain bad HTML!
   document.querySelector('#namePlaceholder > span').innerText = window.nuiHandoverData.name;
 });
-//PLACEHOLDER
-
-/*
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-
-/*
-//SCROLLING PICOVINA
-
-function autoScroll() {
-    var scrollBox = document.querySelector('.scroll-box');
-    var scrollHeight = scrollBox.scrollHeight;
-    var scrollTop = scrollBox.scrollTop;
-    var boxHeight = scrollBox.clientHeight;
-  
-    if (scrollTop + boxHeight >= scrollHeight) {
-      // Dosáhli jsme konce scroll boxu, takže přejdeme na začátek
-      scrollBox.scrollTop = 0;
-    } else {
-      // Posuneme scroll box o určitý počet pixelů nahoru
-      var scrollAmount = 1; // Změňte tuto hodnotu pro rychlost autoscrollu
-      scrollBox.scrollTop += scrollAmount;
-    }
-  }
-  
-  // Spustit autoscroll každou sekundu
-  setInterval(autoScroll, 100); // Změňte tuto hodnotu pro rychlost autoscrollu
-  */
-  
+//PLACEHOLDER - Function for getting handoverdata from lua scrip
   

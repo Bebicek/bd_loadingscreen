@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 games { 'gta5' }
 
-author 'digitalranger'
+author 'Bebik(digitalranger)'
 description 'Discord : https://discord.gg/DW7m5aNGhK'
 version '1.0.0'
 
