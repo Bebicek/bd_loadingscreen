@@ -12,3 +12,4 @@
 
 # Screenshot
 ![image](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/9507dfd3-dc7f-4134-b1d6-bad78f28bbdd)
+Credits for video: **GamingCZE11**
