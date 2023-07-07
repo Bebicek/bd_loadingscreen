@@ -42,7 +42,7 @@ body {
     position: absolute;
     bottom: 0;
     margin-bottom: 4%;
-    margin-left: 25vh;
+    margin-left: 12.25%;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     padding-top: 0.10%;
@@ -60,7 +60,7 @@ body {
   position: absolute;
   bottom: 0;
   margin-bottom: 4%;
-  margin-left: 105vh;
+  margin-left: 51.33%;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 30px;
   padding-top: 0.10%;
@@ -75,7 +75,7 @@ body {
     width: 4px;
     height: 23px;
     background-color: #0084ff;
-    left: 25vh;
+    left: 12.3%;
     border-radius: 20px;
     margin-top: 1px;
 }
