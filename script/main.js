@@ -55,6 +55,16 @@ setTimeout(function() {
 shadedText.textContent = texts[currentText];
 }, 1000);
 }, 4000);
+
+//PLACEHOLDER
+window.addEventListener('DOMContentLoaded', () => {
+  console.log(`You are connecting to ${window.nuiHandoverData.serverAddress}`);
+
+  // a thing to note is the use of innerText, not innerHTML: names are user input and could contain bad HTML!
+  document.querySelector('#namePlaceholder > span').innerText = window.nuiHandoverData.name;
+});
+//PLACEHOLDER
+
 /*
 window.onscroll = function() {myFunction()};
 
