@@ -1,12 +1,12 @@
 // Function for lower or higher up sound in background, its working function in script but its not noted in text//
 var play = false;
 var vid = document.getElementById("loading");
-vid.volume = 0.5;
+vid.volume = 0.1;
 window.addEventListener('keyup', function(e) {
     if (e.which == 40) { // ArrowDOWN
-        vid.volume = Math.min(vid.volume + 0.1, 1);
+        vid.volume = Math.min(vid.volume + 0.025, 1);
     } else if (e.which == 38) { // ArrowUP
-        vid.volume = Math.max(vid.volume - 0.1, 0);
+        vid.volume = Math.max(vid.volume - 0.025, 0);
     };
 });
 // Function for lower or higher up sound in background, its working function in script but its not noted in text//

@@ -12,8 +12,20 @@ client_script 'client.lua'
 files {
     'index.html',
     'css/style.css',
-    'js/script.js',
+    'script/main.js',
     'logo/logo.png',
     'song/song.mp3',
-    'video/video.mp4'
+    'img/ARROW_DOWN.png',
+    'img/ARROW_UP.png',
+    'img/Discord.png',
+    'img/person1.png',
+    'img/person2.png',
+    'img/person3.png',
+    'img/person4.png',
+    'img/person5.png',
+    'img/Site.png',
+    'img/SPACE.png',
+    'img/Tiktok.png'
+
+
 }
