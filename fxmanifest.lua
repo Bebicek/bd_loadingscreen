@@ -8,6 +8,7 @@ version '1.0.0'
 loadscreen 'index.html'
 loadscreen_manual_shutdown 'yes'
 client_script 'client.lua'
+loadscreen_cursor 'yes'
 
 files {
     'index.html',
