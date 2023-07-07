@@ -3,9 +3,9 @@ var play = false;
 var vid = document.getElementById("loading");
 vid.volume = 0.1;
 window.addEventListener('keyup', function(e) {
-    if (e.which == 40) { // ArrowDOWN
+    if (e.which == 38) { // ArrowDOWN
         vid.volume = Math.min(vid.volume + 0.025, 1);
-    } else if (e.which == 38) { // ArrowUP
+    } else if (e.which == 40) { // ArrowUP
         vid.volume = Math.max(vid.volume - 0.025, 0);
     };
 });
