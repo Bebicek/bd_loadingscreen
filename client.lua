@@ -7,11 +7,3 @@ AddEventHandler("playerSpawned", function () 	-- Wait for player to spawn
 		spawn1 = true
 	end
 end)
-
-AddEventHandler('playerConnecting', function(_, _, deferrals)
-    local source = source
-
-    deferrals.handover({
-        name = GetPlayerName(source)
-    })
-end)

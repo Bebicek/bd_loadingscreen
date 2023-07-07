@@ -464,6 +464,7 @@ div#circleG > .circleG:nth-child(even) {
 }
 
 .namePlaceholder{
+  position: absolute;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
