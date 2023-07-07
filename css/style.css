@@ -49,6 +49,7 @@ body {
     padding-bottom: 0.10%;
     padding-right: 1.5%;
     padding-left: 1.75%;
+    width: 626px;
 }
 
 .textbox2 {
@@ -67,6 +68,7 @@ body {
   padding-bottom: 0.10%;
   padding-right: 1.5%;
   padding-left: 1.75%;
+  width: 626px;
 }
 
 .textbox .heading-textbox::before {
