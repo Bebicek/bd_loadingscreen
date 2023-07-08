@@ -65,4 +65,12 @@ window.addEventListener('DOMContentLoaded', () => {
   document.querySelector('#namePlaceholder > span').innerText = window.nuiHandoverData.name;
 });
 //PLACEHOLDER - Function for getting handoverdata from lua scrip
+
+//RANDOMPHRASES - Phrases generated after your steamname
+(function welcometext() {
+    var welcomes = ['Begin your exciting new adventure.', 'Discover the wonders of your new city.', 'Open the door to a brand-new chapter.', 'Step into a world of new possibilities.', 'Embrace your fresh beginning.', ];
+    var randomWelcome = Math.floor(Math.random() * welcomes.length);
+    document.getElementById('welcomeDisplay').innerHTML = welcomes[randomWelcome];
+  })();
+//RANDOMPHRASES - Phrases generated after your steamname
   
