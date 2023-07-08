@@ -470,6 +470,8 @@ div#circleG > .circleG:nth-child(even) {
   font-family: 'Montserrat', sans-serif;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
   position: absolute;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
