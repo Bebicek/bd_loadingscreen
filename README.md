@@ -11,9 +11,10 @@
 - **ArrowDown-Key** (Volume down)
 
 # Screenshot
-![imagesd](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/77652bd7-dcdf-49bf-9b06-29d5c127dae4)
+![imagesda](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/a746c290-ddd8-42c6-bd4c-9b29c61c2852)
+
 
 # Video
-https://www.youtube.com/watch?v=NJei56LGB7M
+[https://www.youtube.com/watch?v=NJei56LGB7M](https://www.youtube.com/watch?v=OgyI1AqS8S4)https://www.youtube.com/watch?v=OgyI1AqS8S4
 
 Credits for video: **GamingCZE11**
