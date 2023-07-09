@@ -11,8 +11,7 @@
 - **ArrowDown-Key** (Volume down)
 
 # Screenshot
-![image](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/9507dfd3-dc7f-4134-b1d6-bad78f28bbdd)
-
+https://cdn.discordapp.com/attachments/891037283824861225/1127582203916845106/image.png
 
 # Video
 https://www.youtube.com/watch?v=NJei56LGB7M&ab_channel=GamingCZE11
