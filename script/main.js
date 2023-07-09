@@ -1,7 +1,7 @@
 // Function for lower or higher up sound in background, its working function in script but its not noted in text//
 var play = false;
 var vid = document.getElementById("loading");
-vid.volume = 0.1;
+vid.volume = 0.2;
 window.addEventListener('keyup', function(e) {
     if (e.which == 38) { // ArrowDOWN
         vid.volume = Math.min(vid.volume + 0.025, 1);
