@@ -15,6 +15,6 @@
 
 
 # Video
-[https://www.youtube.com/watch?v=NJei56LGB7M](https://www.youtube.com/watch?v=OgyI1AqS8S4)https://www.youtube.com/watch?v=OgyI1AqS8S4
+https://www.youtube.com/watch?v=OgyI1AqS8S4
 
 Credits for video: **GamingCZE11**
