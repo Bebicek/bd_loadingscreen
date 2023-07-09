@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games { 'gta5' }
 
 author 'Bebik(digitalranger)'
-description 'Discord : https://discord.gg/DW7m5aNGhK'
+description 'Discord : https://discord.gg/nunBYPBWFF'
 version '1.0.0'
 
 loadscreen 'index.html'
