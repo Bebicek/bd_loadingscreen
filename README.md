@@ -1,5 +1,8 @@
 # bd_loadingscreen
 
+This script was made for you by **BebikDEV**. We will be glad for any support on our **discord: https://discord.gg/nunBYPBWFF**
+**Voluntary support: https://ko-fi.com/bebikdev**
+
 # How to Install
 - Download file and drop in your “**resources**” folder
 - Add to your **server.cfg** file:  ***ensure bd_loadingscreen***
