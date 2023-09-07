@@ -1,7 +1,7 @@
 # bd_loadingscreen
 This script was made for you by **BebikDEV**. We will be glad for any support on our **discord: https://discord.gg/nunBYPBWFF**
 
-[<img src="![logoyoutubepozadi5](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/126fb972-01a8-44a8-b006-f765148ca138)">](https://ko-fi.com/bebikdev)
+![logoyoutubepozadi5](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/b8686a19-f627-4b6c-8667-39ec6896eaeb)
 
 **Voluntary support: https://ko-fi.com/bebikdev**
 
