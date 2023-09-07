@@ -26,7 +26,7 @@ window.addEventListener("keyup", function(event) {
 
         } else if (document.getElementById("loading").src.endsWith("song3.mp3")) {
             document.getElementById("loading").src = "song/song2.mp3";
-            songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+            songname.innerHTML = "Akacia - Electric [NCS Release]";
         }
         document.getElementById("loading").play();
         mutetext.innerHTML = "MUTE";
@@ -43,7 +43,7 @@ window.addEventListener("keyup", function(event) {
 
         } else if (document.getElementById("loading").src.endsWith("song1.mp3")) {
             document.getElementById("loading").src = "song/song2.mp3";
-            songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+            songname.innerHTML = "Akacia - Electric [NCS Release]";
 
         }
         document.getElementById("loading").play();
