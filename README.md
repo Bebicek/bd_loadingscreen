@@ -3,6 +3,7 @@
 This script was made for you by **BebikDEV**. We will be glad for any support on our **discord: https://discord.gg/nunBYPBWFF**
 
 **Voluntary support: https://ko-fi.com/bebikdev**
+![logoyoutubepozadi5](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/69e57ffb-c19a-403b-b270-dd5b7b6aaa22)
 
 # How to Install
 - Download file and drop in your “**resources**” folder
