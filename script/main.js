@@ -35,10 +35,16 @@ window.addEventListener("keyup", function(event) {
     if (event.which == 39) { // ArrowRIGHT
         if (document.getElementById("loading").src.endsWith("song2.mp3")) {
             document.getElementById("loading").src = "song/song3.mp3";
+            songname.innerHTML = "Wiguez & Vizzen Ft. Maestro Chives - Running Wild (EH!DE Remix) [NCS Release]";
+
         } else if (document.getElementById("loading").src.endsWith("song3.mp3")) {
             document.getElementById("loading").src = "song/song1.mp3";
+            songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+
         } else if (document.getElementById("loading").src.endsWith("song1.mp3")) {
             document.getElementById("loading").src = "song/song2.mp3";
+            songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+
         }
         document.getElementById("loading").play();
         mutetext.innerHTML = "MUTE";
