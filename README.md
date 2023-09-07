@@ -1,8 +1,8 @@
 # bd_loadingscreen
 
 This script was made for you by **BebikDEV**. We will be glad for any support on our **discord: https://discord.gg/nunBYPBWFF**
-
-[https://ko-fi.com/bebikdev](![logoyoutubepozadi5](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/69e57ffb-c19a-403b-b270-dd5b7b6aaa22))
+[![KO-FI](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/69e57ffb-c19a-403b-b270-dd5b7b6aaa22)
+](https://ko-fi.com/bebikdev)
 
 **Voluntary support: https://ko-fi.com/bebikdev**
 
