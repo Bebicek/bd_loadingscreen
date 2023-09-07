@@ -16,18 +16,8 @@ files {
     'css/style.css',
     'script/main.js',
     'logo/logo.png',
-    'song/song.mp3',
-    'img/ARROW_DOWN.png',
-    'img/ARROW_UP.png',
-    'img/Discord.png',
-    'img/person1.png',
-    'img/person2.png',
-    'img/person3.png',
-    'img/person4.png',
-    'img/person5.png',
-    'img/Site.png',
-    'img/SPACE.png',
-    'img/Tiktok.png'
+    'song/*',
+    'img/*'
 
 
 }

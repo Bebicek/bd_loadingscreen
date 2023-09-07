@@ -113,6 +113,7 @@ body {
 
 .arrow-up,
 .arrow-down,
+.music-change,
 .space {
     color: rgb(255, 255, 255);
     font-size: 15px;
@@ -124,6 +125,7 @@ body {
 
 .arrow-up img,
 .arrow-down img,
+.music-change img,
 .space img {
     margin-right: 5px;
 }

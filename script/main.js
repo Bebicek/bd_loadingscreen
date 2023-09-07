@@ -11,6 +11,42 @@ window.addEventListener('keyup', function(e) {
 });
 // Function for lower or higher up sound in background, its working function in script but its not noted in text//
 
+var mutetext = document.getElementById("text");
+var songname = document.getElementById("songname");
+
+window.addEventListener("keyup", function(event) {
+    if (event.which == 37) { // ArrowLEFT
+        if (document.getElementById("loading").src.endsWith("song2.mp3")) {
+            document.getElementById("loading").src = "song/song1.mp3";
+            songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+
+        } else if (document.getElementById("loading").src.endsWith("song1.mp3")) {
+            document.getElementById("loading").src = "song/song3.mp3";
+            songname.innerHTML = "Wiguez & Vizzen Ft. Maestro Chives - Running Wild (EH!DE Remix) [NCS Release]";
+
+        } else if (document.getElementById("loading").src.endsWith("song3.mp3")) {
+            document.getElementById("loading").src = "song/song2.mp3";
+            songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+        }
+        document.getElementById("loading").play();
+        mutetext.innerHTML = "MUTE";
+    }
+
+    if (event.which == 39) { // ArrowRIGHT
+        if (document.getElementById("loading").src.endsWith("song2.mp3")) {
+            document.getElementById("loading").src = "song/song3.mp3";
+        } else if (document.getElementById("loading").src.endsWith("song3.mp3")) {
+            document.getElementById("loading").src = "song/song1.mp3";
+        } else if (document.getElementById("loading").src.endsWith("song1.mp3")) {
+            document.getElementById("loading").src = "song/song2.mp3";
+        }
+        document.getElementById("loading").play();
+        mutetext.innerHTML = "MUTE";
+    }
+    
+});
+
+
 // Function for pause and play music in background//
 var audio = document.querySelector('audio');
 
