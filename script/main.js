@@ -17,7 +17,7 @@ function getRandomSongNumber() {
   }
   else if (random == 3) {
     document.getElementById("loading").src = "song/song3.mp3";
-    songname.innerHTML = "Wiguez & Vizzen Ft. Maestro Chives - Running Wild (EH!DE Remix) [NCS Release]";
+    songname.innerHTML = "Wiguez & Vizzen - Running Wild [NCS Release]";
   }
 
   }
