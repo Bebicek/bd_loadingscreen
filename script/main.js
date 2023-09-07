@@ -1,3 +1,36 @@
+// Function for getting random number between 1 and 3 for song choose
+
+function getRandomSongNumber() {
+    return random = Math.floor(Math.random() * 3) + 1;
+  }
+// Function for getting random number between 1 and 3 for song choose
+
+// Function for setting a random song
+  function setNewSong() {
+  if (random == 1) {
+    document.getElementById("loading").src = "song/song1.mp3";
+    songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+  }
+  else if (random == 2) {
+    document.getElementById("loading").src = "song/song2.mp3";
+    songname.innerHTML = "Akacia - Electric [NCS Release]";
+  }
+  else if (random == 3) {
+    document.getElementById("loading").src = "song/song3.mp3";
+    songname.innerHTML = "Wiguez & Vizzen Ft. Maestro Chives - Running Wild (EH!DE Remix) [NCS Release]";
+  }
+
+  }
+// Function for setting a random song
+
+// Function for random song select on page loaded
+document.addEventListener("DOMContentLoaded", function () {
+    // Volání funkcí pro výběr a nastavení náhodné písně
+    var random = getRandomSongNumber();
+    setNewSong(random);
+  });
+// Function for random song select page loaded
+
 // Function for lower or higher up sound in background, its working function in script but its not noted in text//
 var play = false;
 var vid = document.getElementById("loading");
