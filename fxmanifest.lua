@@ -3,7 +3,7 @@ games { 'gta5' }
 
 author 'Bebik(digitalranger)'
 description 'Discord : https://discord.gg/nunBYPBWFF'
-version '1.0.0'
+version '1.1.0'
 
 loadscreen 'index.html'
 loadscreen_manual_shutdown 'yes'
