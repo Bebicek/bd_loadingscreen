@@ -1,5 +1,7 @@
 fx_version 'cerulean'
+description "Loadingscreen script by BebikDEV"
 games { 'gta5' }
+lua54 "yes"
 
 author 'Bebik(digitalranger)'
 description 'Discord : https://discord.gg/nunBYPBWFF'
