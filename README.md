@@ -1,5 +1,5 @@
 # bd_loadingscreen
-This script was made for you by **BebikDEV**. We will be glad for any support on our **discord: https://discord.gg/nunBYPBWFF**
+This script was made for you by **BebikDEV**. We will be glad for any support on our **discord: https://discord.gg/4VwXy4aDBd**
 
 ![logoyoutubepozadi5](https://github.com/Bebicek/bd_loadingscreen/assets/133703817/b8686a19-f627-4b6c-8667-39ec6896eaeb)
 

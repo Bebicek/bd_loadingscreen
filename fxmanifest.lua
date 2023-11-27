@@ -4,7 +4,7 @@ games { 'gta5' }
 lua54 "yes"
 
 author 'Bebik(digitalranger)'
-description 'Discord : https://discord.gg/nunBYPBWFF'
+description 'Discord : https://discord.gg/4VwXy4aDBd'
 version '1.1.0'
 
 loadscreen 'index.html'
