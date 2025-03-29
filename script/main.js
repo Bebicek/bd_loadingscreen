@@ -134,8 +134,6 @@ shadedText.textContent = texts[currentText];
 
 //PLACEHOLDER - Function for getting handoverdata from lua script
 window.addEventListener('DOMContentLoaded', () => {
-  console.log(`You are connecting to ${window.nuiHandoverData.serverAddress}`);
-
   // a thing to note is the use of innerText, not innerHTML: names are user input and could contain bad HTML!
   document.querySelector('#namePlaceholder > span').innerText = window.nuiHandoverData.name;
 });

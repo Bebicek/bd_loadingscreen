@@ -5,7 +5,7 @@ lua54 "yes"
 
 author 'Bebik(digitalranger)'
 description 'Discord : https://discord.gg/4VwXy4aDBd'
-version '1.1.0'
+version '1.1.1'
 
 loadscreen 'index.html'
 loadscreen_manual_shutdown 'yes'
