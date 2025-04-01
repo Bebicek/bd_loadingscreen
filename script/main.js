@@ -6,20 +6,21 @@ function getRandomSongNumber() {
 // Function for getting random number between 1 and 3 for song choose
 
 // Function for setting a random song
-  function setNewSong() {
-  if (random == 1) {
-    document.getElementById("loading").src = "song/song1.mp3";
-    songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
-  }
-  else if (random == 2) {
-    document.getElementById("loading").src = "song/song2.mp3";
-    songname.innerHTML = "Akacia - Electric [NCS Release]";
-  }
-  else if (random == 3) {
-    document.getElementById("loading").src = "song/song3.mp3";
-    songname.innerHTML = "Wiguez & Vizzen - Running Wild [NCS Release]";
-  }
-
+function setNewSong() {
+    switch (random) {
+      case 1:
+        document.getElementById("loading").src = "song/song1.mp3";
+        songname.innerHTML = "Asketa & Natan Chaim - More [NCS Release]";
+        break;
+      case 2:
+        document.getElementById("loading").src = "song/song2.mp3";
+        songname.innerHTML = "Akacia - Electric [NCS Release]";
+        break;
+      case 3:
+        document.getElementById("loading").src = "song/song3.mp3";
+        songname.innerHTML = "Wiguez & Vizzen - Running Wild [NCS Release]";
+        break;
+    }
   }
 // Function for setting a random song
 
